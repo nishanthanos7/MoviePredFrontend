@@ -1,0 +1,63 @@
+.movies-slider {
+    width: 80%; /* Width set to 80% of the parent container */
+    margin: 0 auto; /* Horizontally center the slider */
+  }
+  
+  .movies-slider .slick-slide {
+    outline: none; /* Remove outline on slide focus */
+  }
+  
+  .movies-slider .slick-slide img {
+    display: block;
+    width: 13rem; /* Width set to 13rem */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Horizontally center the image within the slide */
+  }
+  
+  .movies-slider .slick-dots {
+    bottom: -30px; /* Position the navigation dots at the bottom with a negative bottom value */
+  }
+  
+  .movies-slider .slick-prev,
+  .movies-slider .slick-next {
+    font-size: 20px;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    transition: color 0.3s;
+    outline: none;
+  }
+  
+  .movies-slider .slick-prev:hover,
+  .movies-slider .slick-next:hover {
+    color: #ff0000; /* Change color on hover */
+  }
+  
+  .movies-slider .slick-prev {
+    left: 10px; /* Position the previous arrow on the left with a 10px offset */
+  }
+  
+  .movies-slider .slick-next {
+    right: 10px; /* Position the next arrow on the right with a 10px offset */
+  }
+  
+  .slick-slide img {
+    display: block;
+    width: 25rem; /* Width set to 13rem */
+  }
+  
+  .movie-slide {
+    margin-right: 10px; /* Adjust the margin as per your preference */
+  }
+  
+  .movie-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
